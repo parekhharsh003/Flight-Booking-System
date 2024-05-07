@@ -1,0 +1,48 @@
+input {
+    border :0px !important;
+    border-bottom: 2px solid #5c5c5c !important;
+    border-radius: 0px !important;
+    font-weight: bold !important;
+    background-color: whitesmoke !important;    
+  }
+  *:focus {
+    outline: none !important;
+  }
+  label {
+    color: #5c5c5c !important;
+    font-size: 19px;
+  }
+  h5.form-name {
+    font-weight: 50;
+    margin-bottom: 0px !important;
+    margin-top: 10px;
+  }
+  h1 {
+    font-size: 45px !important;
+    font-family: 'product sans';  
+    margin-bottom: 20px;  
+  }
+  body {
+    background-color: #efefef;
+  }
+  div.form-out {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+    background-color: whitesmoke !important;
+    padding: 40px;
+    margin-top: 30px;
+  }
+  select.airline {
+    float: right;
+    font-weight: bold !important;
+  }
+  @media screen and (max-width: 900px){
+    body {
+      background-color: lightblue;
+      background-image: none;
+    }
+    div.form-out {
+    padding: 20px;
+    background-color: none !important;
+    margin-top: 20px;
+  }    
+}

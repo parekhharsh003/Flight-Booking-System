@@ -1,0 +1,50 @@
+body {
+    background: transparent;  /* fallback for old browsers */
+  
+  }
+  @font-face {
+    font-family: 'product sans';
+    src: url('assets/css/Product Sans Bold.ttf');
+  }
+  div.out {
+      padding: 30px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+      border-top-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+  }
+  .city {
+      font-size: 24px;
+  }
+  p {
+      margin-bottom: 10px;
+      font-family: product sans;
+  }
+  .alert {
+      /* font-family: 'Courier New', Courier, monospace; */
+      font-weight: bold;
+  }
+  .date {
+      font-size: 24px;
+  }
+  .time {
+      font-size: 27px;
+      margin-bottom: 0px;
+  }
+  .stat {
+      font-size: 17px;
+  }
+  h1 {
+      font-weight: lighter !important;
+      font-size: 45px !important;
+      margin-bottom: 20px;  
+      font-family :'product sans' !important;
+      font-weight: bolder;
+    }
+  .row {
+      background-color: white;
+  }
+  @font-face {
+    font-family: 'product sans';
+    src: url('assets/css/Product Sans Bold.ttf');
+    }
+  
